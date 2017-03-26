@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.header {
+  position: relative;
+}
+
+.header-title {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.welcome-message {
+  position: absolute;
+  margin-right: 50px;
+  color: #FF8000;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header {
+  background-color: #111;
+  color: #fafafa;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  color: #FF8000;
+}
+
+.main-text {
+  background-color: #ddd;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 20px;
+}
+
