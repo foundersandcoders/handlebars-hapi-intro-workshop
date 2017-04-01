@@ -24,7 +24,7 @@ It is generally good practice to separate the view (presentation/ aesthetics) an
 - A template engine is basically software that is designed to combine reusable text (i.e. templates) with data in order to generate HTML.
 - Handlebars.js is one of the most popular JavaScript templating engines that builds on top of the Mustache templating engine and has therefore compatible syntax with Mustache.
 - Handlebars is designed so that it minimises writing lots of JavaScript logic inside the templates. Unlike other template engines such as Jade, it requires full HTML code and can have embedded placeholders that can "hold" data. For example:
-```html
+```hbs
 <h1>{{title}}</h1>
 <p>{{description}}</p>
 ```
@@ -39,7 +39,7 @@ hapi has extensive support for template rendering and can load and leverage Hand
 In order to use Handlebars with hapi, we need to:
 1. **Firstly**, load the `vision` module as a plugin that adds template rendering support to hapi
 2. **Secondly**, register the `handlebars` module as the engine responsible for rendering templates with an extension of `.html`  
-*Note: Handlebars support their own file extension `.hbs` that is equivalent to `.html`. Either extension can be used but the `.hbs` files have the advantage of syntax highlighting in Atom. *
+*Note*: Handlebars support their own file extension `.hbs` that is equivalent to `.html`. Either extension can be used but the `.hbs` files have the advantage of syntax highlighting in your code editor.
 3. **Thirdly**, we need to tell the server where our files are located based on our view configuration.
 
 ### Dive into coding
