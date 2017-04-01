@@ -8,7 +8,7 @@ const Handlebars = require('./configure-handlebars.js');
 const routes = require('./routes');
 
 server.connection({
-  host: process.env.HOST || 'localhost',
+  host: 'localhost',
   port: process.env.PORT || 3000
 });
 
