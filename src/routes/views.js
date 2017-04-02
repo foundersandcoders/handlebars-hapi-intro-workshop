@@ -3,7 +3,7 @@ module.exports = {
   path: '/',
   handler: (request, reply) => {
     // Render the view with the custom greeting
-    var data = {
+    const data = {
         title: 'This is the index view',
         message: 'Hapi templating with Handlebars...',
         user: {
