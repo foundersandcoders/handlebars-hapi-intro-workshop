@@ -1,8 +1,8 @@
-const handlebars = require('handlebars');
+const handlebars = require('handlebars')
 
 module.exports = server => {
   server.views({
-    engines: { hbs: handlebars },
+    engines: {hbs: handlebars},
     path: 'views',
     layout: 'default',
     layoutPath: 'views/layout',
