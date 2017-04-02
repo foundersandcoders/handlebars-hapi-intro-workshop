@@ -8,7 +8,8 @@ module.exports = {
         message: 'Hapi templating with Handlebars...',
         user: {
           firstName: "Marina",
-          lastName: "Sideri"
+          lastName: "Sideri",
+          role: "admin"
         }
     };
     // Select which view to render (in this case index.html)
