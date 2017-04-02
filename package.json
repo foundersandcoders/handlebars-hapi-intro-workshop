@@ -8,6 +8,10 @@
     "devStart": "nodemon src/start.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marisid/handlebars-intro-workshop.git"
+  },
   "author": "Marina Sideri (https://github.com/marisid)",
   "license": "ISC",
   "dependencies": {
