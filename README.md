@@ -1,3 +1,7 @@
+**Author**: [@marisid](https://github.com/marisid)  
+
+**Maintainer**: [@marisid](https://github.com/marisid)
+
 # Intro workshop to Handlebars.js
 
 This is a workshop designed as a code along to learn about html templating using Handlebars.js.
